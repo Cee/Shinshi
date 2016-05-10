@@ -1,0 +1,1182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92B4F9D71CE1C76100BBDED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F9D61CE1C76100BBDED6 /* AppDelegate.swift */; };
+		92B4F9D91CE1C76200BBDED6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F9D81CE1C76200BBDED6 /* ViewController.swift */; };
+		92B4F9DC1CE1C76200BBDED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B4F9DA1CE1C76200BBDED6 /* Main.storyboard */; };
+		92B4F9DE1CE1C76200BBDED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B4F9DD1CE1C76200BBDED6 /* Assets.xcassets */; };
+		92B4F9E11CE1C76200BBDED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B4F9DF1CE1C76200BBDED6 /* LaunchScreen.storyboard */; };
+		92B4F9EC1CE1C76200BBDED6 /* Shinshi_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F9EB1CE1C76200BBDED6 /* Shinshi_iOSTests.swift */; };
+		92B4F9F71CE1C76200BBDED6 /* Shinshi_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F9F61CE1C76200BBDED6 /* Shinshi_iOSUITests.swift */; };
+		92B4FA091CE1C76F00BBDED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4FA081CE1C76F00BBDED6 /* AppDelegate.swift */; };
+		92B4FA0B1CE1C76F00BBDED6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4FA0A1CE1C76F00BBDED6 /* ViewController.swift */; };
+		92B4FA0D1CE1C76F00BBDED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B4FA0C1CE1C76F00BBDED6 /* Assets.xcassets */; };
+		92B4FA101CE1C76F00BBDED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B4FA0E1CE1C76F00BBDED6 /* Main.storyboard */; };
+		92B4FA1B1CE1C76F00BBDED6 /* Shinshi_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4FA1A1CE1C76F00BBDED6 /* Shinshi_MacTests.swift */; };
+		92B4FA261CE1C76F00BBDED6 /* Shinshi_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4FA251CE1C76F00BBDED6 /* Shinshi_MacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92B4F9E81CE1C76200BBDED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B4F9C91CE1C74F00BBDED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B4F9D21CE1C76100BBDED6;
+			remoteInfo = "Shinshi-iOS";
+		};
+		92B4F9F31CE1C76200BBDED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B4F9C91CE1C74F00BBDED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B4F9D21CE1C76100BBDED6;
+			remoteInfo = "Shinshi-iOS";
+		};
+		92B4FA171CE1C76F00BBDED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B4F9C91CE1C74F00BBDED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B4FA051CE1C76F00BBDED6;
+			remoteInfo = "Shinshi-Mac";
+		};
+		92B4FA221CE1C76F00BBDED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B4F9C91CE1C74F00BBDED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B4FA051CE1C76F00BBDED6;
+			remoteInfo = "Shinshi-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92B4F9D31CE1C76100BBDED6 /* Shinshi-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shinshi-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B4F9D61CE1C76100BBDED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92B4F9D81CE1C76200BBDED6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92B4F9DB1CE1C76200BBDED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92B4F9DD1CE1C76200BBDED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B4F9E01CE1C76200BBDED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92B4F9E21CE1C76200BBDED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B4F9E71CE1C76200BBDED6 /* Shinshi-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shinshi-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B4F9EB1CE1C76200BBDED6 /* Shinshi_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shinshi_iOSTests.swift; sourceTree = "<group>"; };
+		92B4F9ED1CE1C76200BBDED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B4F9F21CE1C76200BBDED6 /* Shinshi-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shinshi-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B4F9F61CE1C76200BBDED6 /* Shinshi_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shinshi_iOSUITests.swift; sourceTree = "<group>"; };
+		92B4F9F81CE1C76200BBDED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B4FA061CE1C76F00BBDED6 /* Shinshi-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shinshi-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B4FA081CE1C76F00BBDED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92B4FA0A1CE1C76F00BBDED6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92B4FA0C1CE1C76F00BBDED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B4FA0F1CE1C76F00BBDED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92B4FA111CE1C76F00BBDED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B4FA161CE1C76F00BBDED6 /* Shinshi-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shinshi-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B4FA1A1CE1C76F00BBDED6 /* Shinshi_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shinshi_MacTests.swift; sourceTree = "<group>"; };
+		92B4FA1C1CE1C76F00BBDED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B4FA211CE1C76F00BBDED6 /* Shinshi-MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shinshi-MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B4FA251CE1C76F00BBDED6 /* Shinshi_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shinshi_MacUITests.swift; sourceTree = "<group>"; };
+		92B4FA271CE1C76F00BBDED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B4F9D01CE1C76100BBDED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4F9E41CE1C76200BBDED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4F9EF1CE1C76200BBDED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4FA031CE1C76F00BBDED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4FA131CE1C76F00BBDED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4FA1E1CE1C76F00BBDED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92B4F9C81CE1C74F00BBDED6 = {
+			isa = PBXGroup;
+			children = (
+				92B4F9D51CE1C76100BBDED6 /* Shinshi-iOS */,
+				92B4FA071CE1C76F00BBDED6 /* Shinshi-Mac */,
+				92B4FA311CE1C78700BBDED6 /* Shinshi-Tests */,
+				92B4F9D41CE1C76100BBDED6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92B4F9D41CE1C76100BBDED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B4F9D31CE1C76100BBDED6 /* Shinshi-iOS.app */,
+				92B4F9E71CE1C76200BBDED6 /* Shinshi-iOSTests.xctest */,
+				92B4F9F21CE1C76200BBDED6 /* Shinshi-iOSUITests.xctest */,
+				92B4FA061CE1C76F00BBDED6 /* Shinshi-Mac.app */,
+				92B4FA161CE1C76F00BBDED6 /* Shinshi-MacTests.xctest */,
+				92B4FA211CE1C76F00BBDED6 /* Shinshi-MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B4F9D51CE1C76100BBDED6 /* Shinshi-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				92B4F9D61CE1C76100BBDED6 /* AppDelegate.swift */,
+				92B4F9D81CE1C76200BBDED6 /* ViewController.swift */,
+				92B4F9DA1CE1C76200BBDED6 /* Main.storyboard */,
+				92B4F9DD1CE1C76200BBDED6 /* Assets.xcassets */,
+				92B4F9DF1CE1C76200BBDED6 /* LaunchScreen.storyboard */,
+				92B4F9E21CE1C76200BBDED6 /* Info.plist */,
+			);
+			path = "Shinshi-iOS";
+			sourceTree = "<group>";
+		};
+		92B4F9EA1CE1C76200BBDED6 /* Shinshi-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				92B4F9EB1CE1C76200BBDED6 /* Shinshi_iOSTests.swift */,
+				92B4F9ED1CE1C76200BBDED6 /* Info.plist */,
+			);
+			path = "Shinshi-iOSTests";
+			sourceTree = "<group>";
+		};
+		92B4F9F51CE1C76200BBDED6 /* Shinshi-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92B4F9F61CE1C76200BBDED6 /* Shinshi_iOSUITests.swift */,
+				92B4F9F81CE1C76200BBDED6 /* Info.plist */,
+			);
+			path = "Shinshi-iOSUITests";
+			sourceTree = "<group>";
+		};
+		92B4FA071CE1C76F00BBDED6 /* Shinshi-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				92B4FA081CE1C76F00BBDED6 /* AppDelegate.swift */,
+				92B4FA0A1CE1C76F00BBDED6 /* ViewController.swift */,
+				92B4FA0C1CE1C76F00BBDED6 /* Assets.xcassets */,
+				92B4FA0E1CE1C76F00BBDED6 /* Main.storyboard */,
+				92B4FA111CE1C76F00BBDED6 /* Info.plist */,
+			);
+			path = "Shinshi-Mac";
+			sourceTree = "<group>";
+		};
+		92B4FA191CE1C76F00BBDED6 /* Shinshi-MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				92B4FA1A1CE1C76F00BBDED6 /* Shinshi_MacTests.swift */,
+				92B4FA1C1CE1C76F00BBDED6 /* Info.plist */,
+			);
+			path = "Shinshi-MacTests";
+			sourceTree = "<group>";
+		};
+		92B4FA241CE1C76F00BBDED6 /* Shinshi-MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92B4FA251CE1C76F00BBDED6 /* Shinshi_MacUITests.swift */,
+				92B4FA271CE1C76F00BBDED6 /* Info.plist */,
+			);
+			path = "Shinshi-MacUITests";
+			sourceTree = "<group>";
+		};
+		92B4FA311CE1C78700BBDED6 /* Shinshi-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92B4F9EA1CE1C76200BBDED6 /* Shinshi-iOSTests */,
+				92B4F9F51CE1C76200BBDED6 /* Shinshi-iOSUITests */,
+				92B4FA191CE1C76F00BBDED6 /* Shinshi-MacTests */,
+				92B4FA241CE1C76F00BBDED6 /* Shinshi-MacUITests */,
+			);
+			name = "Shinshi-Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B4F9D21CE1C76100BBDED6 /* Shinshi-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B4F9F91CE1C76200BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-iOS" */;
+			buildPhases = (
+				92B4F9CF1CE1C76100BBDED6 /* Sources */,
+				92B4F9D01CE1C76100BBDED6 /* Frameworks */,
+				92B4F9D11CE1C76100BBDED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shinshi-iOS";
+			productName = "Shinshi-iOS";
+			productReference = 92B4F9D31CE1C76100BBDED6 /* Shinshi-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92B4F9E61CE1C76200BBDED6 /* Shinshi-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B4F9FC1CE1C76200BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-iOSTests" */;
+			buildPhases = (
+				92B4F9E31CE1C76200BBDED6 /* Sources */,
+				92B4F9E41CE1C76200BBDED6 /* Frameworks */,
+				92B4F9E51CE1C76200BBDED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B4F9E91CE1C76200BBDED6 /* PBXTargetDependency */,
+			);
+			name = "Shinshi-iOSTests";
+			productName = "Shinshi-iOSTests";
+			productReference = 92B4F9E71CE1C76200BBDED6 /* Shinshi-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92B4F9F11CE1C76200BBDED6 /* Shinshi-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B4F9FF1CE1C76200BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-iOSUITests" */;
+			buildPhases = (
+				92B4F9EE1CE1C76200BBDED6 /* Sources */,
+				92B4F9EF1CE1C76200BBDED6 /* Frameworks */,
+				92B4F9F01CE1C76200BBDED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B4F9F41CE1C76200BBDED6 /* PBXTargetDependency */,
+			);
+			name = "Shinshi-iOSUITests";
+			productName = "Shinshi-iOSUITests";
+			productReference = 92B4F9F21CE1C76200BBDED6 /* Shinshi-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		92B4FA051CE1C76F00BBDED6 /* Shinshi-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B4FA281CE1C76F00BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-Mac" */;
+			buildPhases = (
+				92B4FA021CE1C76F00BBDED6 /* Sources */,
+				92B4FA031CE1C76F00BBDED6 /* Frameworks */,
+				92B4FA041CE1C76F00BBDED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shinshi-Mac";
+			productName = "Shinshi-Mac";
+			productReference = 92B4FA061CE1C76F00BBDED6 /* Shinshi-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92B4FA151CE1C76F00BBDED6 /* Shinshi-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B4FA2B1CE1C76F00BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-MacTests" */;
+			buildPhases = (
+				92B4FA121CE1C76F00BBDED6 /* Sources */,
+				92B4FA131CE1C76F00BBDED6 /* Frameworks */,
+				92B4FA141CE1C76F00BBDED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B4FA181CE1C76F00BBDED6 /* PBXTargetDependency */,
+			);
+			name = "Shinshi-MacTests";
+			productName = "Shinshi-MacTests";
+			productReference = 92B4FA161CE1C76F00BBDED6 /* Shinshi-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92B4FA201CE1C76F00BBDED6 /* Shinshi-MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B4FA2E1CE1C76F00BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-MacUITests" */;
+			buildPhases = (
+				92B4FA1D1CE1C76F00BBDED6 /* Sources */,
+				92B4FA1E1CE1C76F00BBDED6 /* Frameworks */,
+				92B4FA1F1CE1C76F00BBDED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B4FA231CE1C76F00BBDED6 /* PBXTargetDependency */,
+			);
+			name = "Shinshi-MacUITests";
+			productName = "Shinshi-MacUITests";
+			productReference = 92B4FA211CE1C76F00BBDED6 /* Shinshi-MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B4F9C91CE1C74F00BBDED6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					92B4F9D21CE1C76100BBDED6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					92B4F9E61CE1C76200BBDED6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 92B4F9D21CE1C76100BBDED6;
+					};
+					92B4F9F11CE1C76200BBDED6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 92B4F9D21CE1C76100BBDED6;
+					};
+					92B4FA051CE1C76F00BBDED6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					92B4FA151CE1C76F00BBDED6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 92B4FA051CE1C76F00BBDED6;
+					};
+					92B4FA201CE1C76F00BBDED6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 92B4FA051CE1C76F00BBDED6;
+					};
+				};
+			};
+			buildConfigurationList = 92B4F9CC1CE1C74F00BBDED6 /* Build configuration list for PBXProject "Shinshi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B4F9C81CE1C74F00BBDED6;
+			productRefGroup = 92B4F9D41CE1C76100BBDED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B4F9D21CE1C76100BBDED6 /* Shinshi-iOS */,
+				92B4F9E61CE1C76200BBDED6 /* Shinshi-iOSTests */,
+				92B4F9F11CE1C76200BBDED6 /* Shinshi-iOSUITests */,
+				92B4FA051CE1C76F00BBDED6 /* Shinshi-Mac */,
+				92B4FA151CE1C76F00BBDED6 /* Shinshi-MacTests */,
+				92B4FA201CE1C76F00BBDED6 /* Shinshi-MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B4F9D11CE1C76100BBDED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B4F9E11CE1C76200BBDED6 /* LaunchScreen.storyboard in Resources */,
+				92B4F9DE1CE1C76200BBDED6 /* Assets.xcassets in Resources */,
+				92B4F9DC1CE1C76200BBDED6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4F9E51CE1C76200BBDED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4F9F01CE1C76200BBDED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4FA041CE1C76F00BBDED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B4FA0D1CE1C76F00BBDED6 /* Assets.xcassets in Resources */,
+				92B4FA101CE1C76F00BBDED6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4FA141CE1C76F00BBDED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4FA1F1CE1C76F00BBDED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B4F9CF1CE1C76100BBDED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B4F9D91CE1C76200BBDED6 /* ViewController.swift in Sources */,
+				92B4F9D71CE1C76100BBDED6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4F9E31CE1C76200BBDED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B4F9EC1CE1C76200BBDED6 /* Shinshi_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4F9EE1CE1C76200BBDED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B4F9F71CE1C76200BBDED6 /* Shinshi_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4FA021CE1C76F00BBDED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B4FA0B1CE1C76F00BBDED6 /* ViewController.swift in Sources */,
+				92B4FA091CE1C76F00BBDED6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4FA121CE1C76F00BBDED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B4FA1B1CE1C76F00BBDED6 /* Shinshi_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B4FA1D1CE1C76F00BBDED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B4FA261CE1C76F00BBDED6 /* Shinshi_MacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92B4F9E91CE1C76200BBDED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B4F9D21CE1C76100BBDED6 /* Shinshi-iOS */;
+			targetProxy = 92B4F9E81CE1C76200BBDED6 /* PBXContainerItemProxy */;
+		};
+		92B4F9F41CE1C76200BBDED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B4F9D21CE1C76100BBDED6 /* Shinshi-iOS */;
+			targetProxy = 92B4F9F31CE1C76200BBDED6 /* PBXContainerItemProxy */;
+		};
+		92B4FA181CE1C76F00BBDED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B4FA051CE1C76F00BBDED6 /* Shinshi-Mac */;
+			targetProxy = 92B4FA171CE1C76F00BBDED6 /* PBXContainerItemProxy */;
+		};
+		92B4FA231CE1C76F00BBDED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B4FA051CE1C76F00BBDED6 /* Shinshi-Mac */;
+			targetProxy = 92B4FA221CE1C76F00BBDED6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92B4F9DA1CE1C76200BBDED6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B4F9DB1CE1C76200BBDED6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92B4F9DF1CE1C76200BBDED6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B4F9E01CE1C76200BBDED6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92B4FA0E1CE1C76F00BBDED6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B4FA0F1CE1C76F00BBDED6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92B4F9CD1CE1C74F00BBDED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		92B4F9CE1CE1C74F00BBDED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		92B4F9FA1CE1C76200BBDED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B4F9FB1CE1C76200BBDED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B4F9FD1CE1C76200BBDED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shinshi-iOS.app/Shinshi-iOS";
+			};
+			name = Debug;
+		};
+		92B4F9FE1CE1C76200BBDED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shinshi-iOS.app/Shinshi-iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B4FA001CE1C76200BBDED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-iOSUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_TARGET_NAME = "Shinshi-iOS";
+			};
+			name = Debug;
+		};
+		92B4FA011CE1C76200BBDED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-iOSUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_TARGET_NAME = "Shinshi-iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B4FA291CE1C76F00BBDED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92B4FA2A1CE1C76F00BBDED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92B4FA2C1CE1C76F00BBDED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shinshi-Mac.app/Contents/MacOS/Shinshi-Mac";
+			};
+			name = Debug;
+		};
+		92B4FA2D1CE1C76F00BBDED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shinshi-Mac.app/Contents/MacOS/Shinshi-Mac";
+			};
+			name = Release;
+		};
+		92B4FA2F1CE1C76F00BBDED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Shinshi-Mac";
+			};
+			name = Debug;
+		};
+		92B4FA301CE1C76F00BBDED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Shinshi-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.Cee.Shinshi-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Shinshi-Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B4F9CC1CE1C74F00BBDED6 /* Build configuration list for PBXProject "Shinshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B4F9CD1CE1C74F00BBDED6 /* Debug */,
+				92B4F9CE1CE1C74F00BBDED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B4F9F91CE1C76200BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B4F9FA1CE1C76200BBDED6 /* Debug */,
+				92B4F9FB1CE1C76200BBDED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92B4F9FC1CE1C76200BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B4F9FD1CE1C76200BBDED6 /* Debug */,
+				92B4F9FE1CE1C76200BBDED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92B4F9FF1CE1C76200BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B4FA001CE1C76200BBDED6 /* Debug */,
+				92B4FA011CE1C76200BBDED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92B4FA281CE1C76F00BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B4FA291CE1C76F00BBDED6 /* Debug */,
+				92B4FA2A1CE1C76F00BBDED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92B4FA2B1CE1C76F00BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B4FA2C1CE1C76F00BBDED6 /* Debug */,
+				92B4FA2D1CE1C76F00BBDED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92B4FA2E1CE1C76F00BBDED6 /* Build configuration list for PBXNativeTarget "Shinshi-MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B4FA2F1CE1C76F00BBDED6 /* Debug */,
+				92B4FA301CE1C76F00BBDED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B4F9C91CE1C74F00BBDED6 /* Project object */;
+}
